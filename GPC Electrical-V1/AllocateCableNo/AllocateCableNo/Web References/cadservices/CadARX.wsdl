@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://EnterpriseIntegration/CadARX" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://EnterpriseIntegration/CadARX" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://EnterpriseIntegration/CadARX">
+      <s:element name="GetSecurityContext">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSecurityContextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSecurityContextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAbout">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAboutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAboutResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="facility" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="drawingtype" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckNextRegistrationResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateDrawingSimple">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="project" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateDrawingSimpleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDrawingSimpleResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateDrawing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="facilityid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="unitid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="equipment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="device" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="drawingtypeid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateDrawingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDrawingResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextDrawing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextDrawingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckNextDrawingResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="drawingno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDrawingTypeResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCadFacility">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="drawingno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCadFacilityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCadFacilityResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCadUnit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="drawingno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCadUnitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCadUnitResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextCable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextCableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckNextCableResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextCabinets">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="area" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNextCabinetsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckNextCabinetsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAllPrefix">
+        <s:complexType />
+      </s:element>
+      <s:element name="CheckAllPrefixResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckAllPrefixResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCadFacility">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCadFacilityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCadFacilityResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCadUnit">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCadUnitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCadUnitResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCadDrawingType">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCadDrawingTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCadDrawingTypeResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCableColors">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCableColorsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCableColorsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCableGrades">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCableGradesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCableGradesResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCablePrefix">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCablePrefixResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCablePrefixResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCadPrefix">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCadPrefixResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCadPrefixResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowFacilityPrefix">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowFacilityPrefixResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowFacilityPrefixResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowCableTypes">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShowCableTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShowCableTypesResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCabinetAllocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cabinetid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCabinetAllocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateCabinetAllocationResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCableSimple">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="project" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCableSimpleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateCableSimpleResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSecurityContextSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSecurityContext" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityContextSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSecurityContextResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAboutSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAbout" />
+  </wsdl:message>
+  <wsdl:message name="GetAboutSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAboutResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextRegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckNextRegistration" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextRegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckNextRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSimpleSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateDrawingSimple" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSimpleSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateDrawingSimpleResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateDrawing" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateDrawingResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextDrawingSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckNextDrawing" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextDrawingSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckNextDrawingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDrawingType" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDrawingTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCadFacilitySoapIn">
+    <wsdl:part name="parameters" element="tns:GetCadFacility" />
+  </wsdl:message>
+  <wsdl:message name="GetCadFacilitySoapOut">
+    <wsdl:part name="parameters" element="tns:GetCadFacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCadUnitSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCadUnit" />
+  </wsdl:message>
+  <wsdl:message name="GetCadUnitSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCadUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCableSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckNextCable" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCableSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckNextCableResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCabinetsSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckNextCabinets" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCabinetsSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckNextCabinetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckAllPrefixSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckAllPrefix" />
+  </wsdl:message>
+  <wsdl:message name="CheckAllPrefixSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckAllPrefixResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadFacilitySoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCadFacility" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadFacilitySoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCadFacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadUnitSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCadUnit" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadUnitSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCadUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadDrawingTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCadDrawingType" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadDrawingTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCadDrawingTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableColorsSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCableColors" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableColorsSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCableColorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableGradesSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCableGrades" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableGradesSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCableGradesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCablePrefixSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCablePrefix" />
+  </wsdl:message>
+  <wsdl:message name="ShowCablePrefixSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCablePrefixResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadPrefixSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCadPrefix" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadPrefixSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCadPrefixResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowFacilityPrefixSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowFacilityPrefix" />
+  </wsdl:message>
+  <wsdl:message name="ShowFacilityPrefixSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowFacilityPrefixResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowCableTypes" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowCableTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateCabinetAllocationSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateCabinetAllocation" />
+  </wsdl:message>
+  <wsdl:message name="CreateCabinetAllocationSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateCabinetAllocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateCableSimpleSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateCableSimple" />
+  </wsdl:message>
+  <wsdl:message name="CreateCableSimpleSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateCableSimpleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityContextHttpGetIn" />
+  <wsdl:message name="GetSecurityContextHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAboutHttpGetIn" />
+  <wsdl:message name="GetAboutHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextRegistrationHttpGetIn">
+    <wsdl:part name="facility" type="s:string" />
+    <wsdl:part name="unit" type="s:string" />
+    <wsdl:part name="drawingtype" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextRegistrationHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSimpleHttpGetIn">
+    <wsdl:part name="prefix" type="s:string" />
+    <wsdl:part name="project" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSimpleHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingHttpGetIn">
+    <wsdl:part name="prefix" type="s:string" />
+    <wsdl:part name="facilityid" type="s:string" />
+    <wsdl:part name="unitid" type="s:string" />
+    <wsdl:part name="equipment" type="s:string" />
+    <wsdl:part name="device" type="s:string" />
+    <wsdl:part name="drawingtypeid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextDrawingHttpGetIn">
+    <wsdl:part name="prefix" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextDrawingHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingTypeHttpGetIn">
+    <wsdl:part name="drawingno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingTypeHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetCadFacilityHttpGetIn">
+    <wsdl:part name="drawingno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCadFacilityHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetCadUnitHttpGetIn">
+    <wsdl:part name="drawingno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCadUnitHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCableHttpGetIn">
+    <wsdl:part name="prefix" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCableHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCabinetsHttpGetIn">
+    <wsdl:part name="area" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCabinetsHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckAllPrefixHttpGetIn" />
+  <wsdl:message name="CheckAllPrefixHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadFacilityHttpGetIn" />
+  <wsdl:message name="ShowCadFacilityHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadUnitHttpGetIn" />
+  <wsdl:message name="ShowCadUnitHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadDrawingTypeHttpGetIn" />
+  <wsdl:message name="ShowCadDrawingTypeHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableColorsHttpGetIn" />
+  <wsdl:message name="ShowCableColorsHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableGradesHttpGetIn" />
+  <wsdl:message name="ShowCableGradesHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCablePrefixHttpGetIn" />
+  <wsdl:message name="ShowCablePrefixHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadPrefixHttpGetIn" />
+  <wsdl:message name="ShowCadPrefixHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowFacilityPrefixHttpGetIn" />
+  <wsdl:message name="ShowFacilityPrefixHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableTypesHttpGetIn" />
+  <wsdl:message name="ShowCableTypesHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateCabinetAllocationHttpGetIn">
+    <wsdl:part name="cabinetid" type="s:string" />
+    <wsdl:part name="location" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCabinetAllocationHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateCableSimpleHttpGetIn">
+    <wsdl:part name="prefix" type="s:string" />
+    <wsdl:part name="project" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCableSimpleHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityContextHttpPostIn" />
+  <wsdl:message name="GetSecurityContextHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAboutHttpPostIn" />
+  <wsdl:message name="GetAboutHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextRegistrationHttpPostIn">
+    <wsdl:part name="facility" type="s:string" />
+    <wsdl:part name="unit" type="s:string" />
+    <wsdl:part name="drawingtype" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextRegistrationHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSimpleHttpPostIn">
+    <wsdl:part name="prefix" type="s:string" />
+    <wsdl:part name="project" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingSimpleHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingHttpPostIn">
+    <wsdl:part name="prefix" type="s:string" />
+    <wsdl:part name="facilityid" type="s:string" />
+    <wsdl:part name="unitid" type="s:string" />
+    <wsdl:part name="equipment" type="s:string" />
+    <wsdl:part name="device" type="s:string" />
+    <wsdl:part name="drawingtypeid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateDrawingHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextDrawingHttpPostIn">
+    <wsdl:part name="prefix" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextDrawingHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingTypeHttpPostIn">
+    <wsdl:part name="drawingno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingTypeHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetCadFacilityHttpPostIn">
+    <wsdl:part name="drawingno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCadFacilityHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetCadUnitHttpPostIn">
+    <wsdl:part name="drawingno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCadUnitHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCableHttpPostIn">
+    <wsdl:part name="prefix" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCableHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCabinetsHttpPostIn">
+    <wsdl:part name="area" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckNextCabinetsHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CheckAllPrefixHttpPostIn" />
+  <wsdl:message name="CheckAllPrefixHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadFacilityHttpPostIn" />
+  <wsdl:message name="ShowCadFacilityHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadUnitHttpPostIn" />
+  <wsdl:message name="ShowCadUnitHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadDrawingTypeHttpPostIn" />
+  <wsdl:message name="ShowCadDrawingTypeHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableColorsHttpPostIn" />
+  <wsdl:message name="ShowCableColorsHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableGradesHttpPostIn" />
+  <wsdl:message name="ShowCableGradesHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCablePrefixHttpPostIn" />
+  <wsdl:message name="ShowCablePrefixHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCadPrefixHttpPostIn" />
+  <wsdl:message name="ShowCadPrefixHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowFacilityPrefixHttpPostIn" />
+  <wsdl:message name="ShowFacilityPrefixHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ShowCableTypesHttpPostIn" />
+  <wsdl:message name="ShowCableTypesHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateCabinetAllocationHttpPostIn">
+    <wsdl:part name="cabinetid" type="s:string" />
+    <wsdl:part name="location" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCabinetAllocationHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="CreateCableSimpleHttpPostIn">
+    <wsdl:part name="prefix" type="s:string" />
+    <wsdl:part name="project" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCableSimpleHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:portType name="CadARXSoap">
+    <wsdl:operation name="GetSecurityContext">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains the Logon Security Context Name</wsdl:documentation>
+      <wsdl:input message="tns:GetSecurityContextSoapIn" />
+      <wsdl:output message="tns:GetSecurityContextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains About information</wsdl:documentation>
+      <wsdl:input message="tns:GetAboutSoapIn" />
+      <wsdl:output message="tns:GetAboutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document details of available registrations for a given facility, unit and drawingtype</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextRegistrationSoapIn" />
+      <wsdl:output message="tns:CheckNextRegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a valid drawing record with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateDrawingSimpleSoapIn" />
+      <wsdl:output message="tns:CreateDrawingSimpleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a drawing record and registration with full information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateDrawingSoapIn" />
+      <wsdl:output message="tns:CreateDrawingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available drawing number for a given prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextDrawingSoapIn" />
+      <wsdl:output message="tns:CheckNextDrawingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of drawing type for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetDrawingTypeSoapIn" />
+      <wsdl:output message="tns:GetDrawingTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of facility for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetCadFacilitySoapIn" />
+      <wsdl:output message="tns:GetCadFacilitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of unit for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetCadUnitSoapIn" />
+      <wsdl:output message="tns:GetCadUnitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cable number for a given prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextCableSoapIn" />
+      <wsdl:output message="tns:CheckNextCableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cabinets for a given registration area character</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextCabinetsSoapIn" />
+      <wsdl:output message="tns:CheckNextCabinetsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cable number for a all valid cable prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckAllPrefixSoapIn" />
+      <wsdl:output message="tns:CheckAllPrefixSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Facility</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadFacilitySoapIn" />
+      <wsdl:output message="tns:ShowCadFacilitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Units</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadUnitSoapIn" />
+      <wsdl:output message="tns:ShowCadUnitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Drawing Types</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadDrawingTypeSoapIn" />
+      <wsdl:output message="tns:ShowCadDrawingTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Colors</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableColorsSoapIn" />
+      <wsdl:output message="tns:ShowCableColorsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Grades</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableGradesSoapIn" />
+      <wsdl:output message="tns:ShowCableGradesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Prefix</wsdl:documentation>
+      <wsdl:input message="tns:ShowCablePrefixSoapIn" />
+      <wsdl:output message="tns:ShowCablePrefixSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of CAD Prefix</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadPrefixSoapIn" />
+      <wsdl:output message="tns:ShowCadPrefixSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Facility Prefix and Units for UI Support</wsdl:documentation>
+      <wsdl:input message="tns:ShowFacilityPrefixSoapIn" />
+      <wsdl:output message="tns:ShowFacilityPrefixSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Types</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableTypesSoapIn" />
+      <wsdl:output message="tns:ShowCableTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a cabinet allocation with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateCabinetAllocationSoapIn" />
+      <wsdl:output message="tns:CreateCabinetAllocationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a valid cable record with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateCableSimpleSoapIn" />
+      <wsdl:output message="tns:CreateCableSimpleSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CadARXHttpGet">
+    <wsdl:operation name="GetSecurityContext">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains the Logon Security Context Name</wsdl:documentation>
+      <wsdl:input message="tns:GetSecurityContextHttpGetIn" />
+      <wsdl:output message="tns:GetSecurityContextHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains About information</wsdl:documentation>
+      <wsdl:input message="tns:GetAboutHttpGetIn" />
+      <wsdl:output message="tns:GetAboutHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document details of available registrations for a given facility, unit and drawingtype</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextRegistrationHttpGetIn" />
+      <wsdl:output message="tns:CheckNextRegistrationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a valid drawing record with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateDrawingSimpleHttpGetIn" />
+      <wsdl:output message="tns:CreateDrawingSimpleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a drawing record and registration with full information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateDrawingHttpGetIn" />
+      <wsdl:output message="tns:CreateDrawingHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available drawing number for a given prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextDrawingHttpGetIn" />
+      <wsdl:output message="tns:CheckNextDrawingHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of drawing type for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetDrawingTypeHttpGetIn" />
+      <wsdl:output message="tns:GetDrawingTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of facility for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetCadFacilityHttpGetIn" />
+      <wsdl:output message="tns:GetCadFacilityHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of unit for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetCadUnitHttpGetIn" />
+      <wsdl:output message="tns:GetCadUnitHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cable number for a given prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextCableHttpGetIn" />
+      <wsdl:output message="tns:CheckNextCableHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cabinets for a given registration area character</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextCabinetsHttpGetIn" />
+      <wsdl:output message="tns:CheckNextCabinetsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cable number for a all valid cable prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckAllPrefixHttpGetIn" />
+      <wsdl:output message="tns:CheckAllPrefixHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Facility</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadFacilityHttpGetIn" />
+      <wsdl:output message="tns:ShowCadFacilityHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Units</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadUnitHttpGetIn" />
+      <wsdl:output message="tns:ShowCadUnitHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Drawing Types</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadDrawingTypeHttpGetIn" />
+      <wsdl:output message="tns:ShowCadDrawingTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Colors</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableColorsHttpGetIn" />
+      <wsdl:output message="tns:ShowCableColorsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Grades</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableGradesHttpGetIn" />
+      <wsdl:output message="tns:ShowCableGradesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Prefix</wsdl:documentation>
+      <wsdl:input message="tns:ShowCablePrefixHttpGetIn" />
+      <wsdl:output message="tns:ShowCablePrefixHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of CAD Prefix</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadPrefixHttpGetIn" />
+      <wsdl:output message="tns:ShowCadPrefixHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Facility Prefix and Units for UI Support</wsdl:documentation>
+      <wsdl:input message="tns:ShowFacilityPrefixHttpGetIn" />
+      <wsdl:output message="tns:ShowFacilityPrefixHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Types</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableTypesHttpGetIn" />
+      <wsdl:output message="tns:ShowCableTypesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a cabinet allocation with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateCabinetAllocationHttpGetIn" />
+      <wsdl:output message="tns:CreateCabinetAllocationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a valid cable record with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateCableSimpleHttpGetIn" />
+      <wsdl:output message="tns:CreateCableSimpleHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CadARXHttpPost">
+    <wsdl:operation name="GetSecurityContext">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains the Logon Security Context Name</wsdl:documentation>
+      <wsdl:input message="tns:GetSecurityContextHttpPostIn" />
+      <wsdl:output message="tns:GetSecurityContextHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains About information</wsdl:documentation>
+      <wsdl:input message="tns:GetAboutHttpPostIn" />
+      <wsdl:output message="tns:GetAboutHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document details of available registrations for a given facility, unit and drawingtype</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextRegistrationHttpPostIn" />
+      <wsdl:output message="tns:CheckNextRegistrationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a valid drawing record with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateDrawingSimpleHttpPostIn" />
+      <wsdl:output message="tns:CreateDrawingSimpleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a drawing record and registration with full information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateDrawingHttpPostIn" />
+      <wsdl:output message="tns:CreateDrawingHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available drawing number for a given prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextDrawingHttpPostIn" />
+      <wsdl:output message="tns:CheckNextDrawingHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of drawing type for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetDrawingTypeHttpPostIn" />
+      <wsdl:output message="tns:GetDrawingTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of facility for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetCadFacilityHttpPostIn" />
+      <wsdl:output message="tns:GetCadFacilityHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of unit for a given drawing no</wsdl:documentation>
+      <wsdl:input message="tns:GetCadUnitHttpPostIn" />
+      <wsdl:output message="tns:GetCadUnitHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cable number for a given prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextCableHttpPostIn" />
+      <wsdl:output message="tns:CheckNextCableHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cabinets for a given registration area character</wsdl:documentation>
+      <wsdl:input message="tns:CheckNextCabinetsHttpPostIn" />
+      <wsdl:output message="tns:CheckNextCabinetsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of next available cable number for a all valid cable prefix</wsdl:documentation>
+      <wsdl:input message="tns:CheckAllPrefixHttpPostIn" />
+      <wsdl:output message="tns:CheckAllPrefixHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Facility</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadFacilityHttpPostIn" />
+      <wsdl:output message="tns:ShowCadFacilityHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Units</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadUnitHttpPostIn" />
+      <wsdl:output message="tns:ShowCadUnitHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cad Drawing Types</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadDrawingTypeHttpPostIn" />
+      <wsdl:output message="tns:ShowCadDrawingTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Colors</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableColorsHttpPostIn" />
+      <wsdl:output message="tns:ShowCableColorsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Grades</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableGradesHttpPostIn" />
+      <wsdl:output message="tns:ShowCableGradesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Prefix</wsdl:documentation>
+      <wsdl:input message="tns:ShowCablePrefixHttpPostIn" />
+      <wsdl:output message="tns:ShowCablePrefixHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of CAD Prefix</wsdl:documentation>
+      <wsdl:input message="tns:ShowCadPrefixHttpPostIn" />
+      <wsdl:output message="tns:ShowCadPrefixHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Facility Prefix and Units for UI Support</wsdl:documentation>
+      <wsdl:input message="tns:ShowFacilityPrefixHttpPostIn" />
+      <wsdl:output message="tns:ShowFacilityPrefixHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtains an XML Document containing details of Cable Types</wsdl:documentation>
+      <wsdl:input message="tns:ShowCableTypesHttpPostIn" />
+      <wsdl:output message="tns:ShowCableTypesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a cabinet allocation with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateCabinetAllocationHttpPostIn" />
+      <wsdl:output message="tns:CreateCabinetAllocationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates a valid cable record with minimal information available</wsdl:documentation>
+      <wsdl:input message="tns:CreateCableSimpleHttpPostIn" />
+      <wsdl:output message="tns:CreateCableSimpleHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CadARXSoap" type="tns:CadARXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSecurityContext">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/GetSecurityContext" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/GetAbout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CreateDrawingSimple" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CreateDrawing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextDrawing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/GetDrawingType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/GetCadFacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/GetCadUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextCable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextCabinets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CheckAllPrefix" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadFacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadDrawingType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCableColors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCableGrades" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCablePrefix" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadPrefix" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowFacilityPrefix" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCableTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CreateCabinetAllocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <soap:operation soapAction="http://EnterpriseIntegration/CadARX/CreateCableSimple" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CadARXSoap12" type="tns:CadARXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSecurityContext">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/GetSecurityContext" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/GetAbout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CreateDrawingSimple" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CreateDrawing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextDrawing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/GetDrawingType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/GetCadFacility" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/GetCadUnit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextCable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CheckNextCabinets" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CheckAllPrefix" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadFacility" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadUnit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadDrawingType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCableColors" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCableGrades" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCablePrefix" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCadPrefix" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowFacilityPrefix" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/ShowCableTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CreateCabinetAllocation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <soap12:operation soapAction="http://EnterpriseIntegration/CadARX/CreateCableSimple" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CadARXHttpGet" type="tns:CadARXHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetSecurityContext">
+      <http:operation location="/GetSecurityContext" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <http:operation location="/GetAbout" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <http:operation location="/CheckNextRegistration" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <http:operation location="/CreateDrawingSimple" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <http:operation location="/CreateDrawing" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <http:operation location="/CheckNextDrawing" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <http:operation location="/GetDrawingType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <http:operation location="/GetCadFacility" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <http:operation location="/GetCadUnit" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <http:operation location="/CheckNextCable" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <http:operation location="/CheckNextCabinets" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <http:operation location="/CheckAllPrefix" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <http:operation location="/ShowCadFacility" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <http:operation location="/ShowCadUnit" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <http:operation location="/ShowCadDrawingType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <http:operation location="/ShowCableColors" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <http:operation location="/ShowCableGrades" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <http:operation location="/ShowCablePrefix" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <http:operation location="/ShowCadPrefix" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <http:operation location="/ShowFacilityPrefix" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <http:operation location="/ShowCableTypes" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <http:operation location="/CreateCabinetAllocation" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <http:operation location="/CreateCableSimple" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CadARXHttpPost" type="tns:CadARXHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetSecurityContext">
+      <http:operation location="/GetSecurityContext" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbout">
+      <http:operation location="/GetAbout" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextRegistration">
+      <http:operation location="/CheckNextRegistration" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawingSimple">
+      <http:operation location="/CreateDrawingSimple" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDrawing">
+      <http:operation location="/CreateDrawing" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextDrawing">
+      <http:operation location="/CheckNextDrawing" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingType">
+      <http:operation location="/GetDrawingType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadFacility">
+      <http:operation location="/GetCadFacility" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCadUnit">
+      <http:operation location="/GetCadUnit" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCable">
+      <http:operation location="/CheckNextCable" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNextCabinets">
+      <http:operation location="/CheckNextCabinets" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAllPrefix">
+      <http:operation location="/CheckAllPrefix" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadFacility">
+      <http:operation location="/ShowCadFacility" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadUnit">
+      <http:operation location="/ShowCadUnit" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadDrawingType">
+      <http:operation location="/ShowCadDrawingType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableColors">
+      <http:operation location="/ShowCableColors" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableGrades">
+      <http:operation location="/ShowCableGrades" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCablePrefix">
+      <http:operation location="/ShowCablePrefix" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCadPrefix">
+      <http:operation location="/ShowCadPrefix" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowFacilityPrefix">
+      <http:operation location="/ShowFacilityPrefix" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowCableTypes">
+      <http:operation location="/ShowCableTypes" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCabinetAllocation">
+      <http:operation location="/CreateCabinetAllocation" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCableSimple">
+      <http:operation location="/CreateCableSimple" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CadARX">
+    <wsdl:port name="CadARXSoap" binding="tns:CadARXSoap">
+      <soap:address location="http://cadservices/cadarx/CadARX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CadARXSoap12" binding="tns:CadARXSoap12">
+      <soap12:address location="http://cadservices/cadarx/CadARX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CadARXHttpGet" binding="tns:CadARXHttpGet">
+      <http:address location="http://cadservices/cadarx/CadARX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CadARXHttpPost" binding="tns:CadARXHttpPost">
+      <http:address location="http://cadservices/cadarx/CadARX.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

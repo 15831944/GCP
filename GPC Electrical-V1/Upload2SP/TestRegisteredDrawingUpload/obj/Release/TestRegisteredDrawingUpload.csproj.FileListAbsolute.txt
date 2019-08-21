@@ -1,0 +1,8 @@
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\TestRegisteredDrawingUpload.exe.config
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\TestRegisteredDrawingUpload.exe
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\TestRegisteredDrawingUpload.pdb
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\TestRegisteredDrawingUpload\obj\Release\TestRegisteredDrawingUpload.csproj.CoreCompileInputs.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\TestRegisteredDrawingUpload\obj\Release\TestRegisteredDrawingUpload.csproj.CopyComplete
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\TestRegisteredDrawingUpload\obj\Release\TestRegisteredDrawingUpload.exe
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\TestRegisteredDrawingUpload\obj\Release\TestRegisteredDrawingUpload.pdb
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\TestRegisteredDrawingUpload\obj\Release\TestRegisteredDrawingUpload.csprojAssemblyReference.cache

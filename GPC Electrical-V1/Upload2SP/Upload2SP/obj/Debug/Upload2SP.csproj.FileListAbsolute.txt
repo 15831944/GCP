@@ -1,0 +1,161 @@
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\ResolveAssemblyReference.cache
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\Upload2SP.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\Upload2SP.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\AcDbMgd.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\AcMgd.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\AdWindows.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\ClassLibrary1.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\AcTcMgd.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\AcCui.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\PopulateBorder.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\UpgradeBorder.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\Autodesk.AutoCAD.Interop.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\log4net.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\ClassLibrary1.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\PopulateBorder.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\UpgradeBorder.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\log4net.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\bin\Debug\log4net.xml
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\Upload2SP.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\Upload2SP\Upload2SP\obj\Debug\Upload2SP.pdb
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\GenerateResource.read.1.tlog
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\GenerateResource.write.1.tlog
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\Upload2SP.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\Upload2SP.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\Upload2SP.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\AcCoreMgd.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\AcDbMgd.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\AcMgd.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\AdWindows.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\AcTcMgd.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\AcCui.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\PopulateBorder.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\CadLogixUtil.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\UpgradeBorder.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\log4net.dll
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\ClassLibrary1.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\PopulateBorder.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\CadLogixUtil.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\UpgradeBorder.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\log4net.pdb
+C:\VS2010\ARX2013\Upload2SP\bin\Debug\log4net.xml
+C:\VS2010\ARX2013\Upload2SP\obj\Debug\Upload2SP.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\Upload2SP.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\Upload2SP.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\AcTcMgd.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\AcCui.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\PopulateBorder.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\UpgradeBorder.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\log4net.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\ClassLibrary1.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\PopulateBorder.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\UpgradeBorder.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\log4net.pdb
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\bin\Debug\log4net.xml
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\GenerateResource.read.1.tlog
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\GenerateResource.write.1.tlog
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\Upload2SP.dll
+C:\VS2010\ARX2013\Upload2SP\Upload2SP\obj\Debug\Upload2SP.pdb
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\Upload2SP.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\Upload2SP.pdb
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcadUtils.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcCoreMgd.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcDbMgd.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcMgd.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcWindows.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AdWindows.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcTcMgd.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcCui.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\AcadUtils.pdb
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.pdb
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\GenerateResource.read.1.tlog
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\GenerateResource.write.1.tlog
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\Upload2SP.dll
+C:\VS2010\ARX2013\AcadUtils\Upload2SP\Upload2SP\obj\Debug\Upload2SP.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.csprojResolveAssemblyReference.cache
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.csproj.GenerateResource.Cache
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Upload2SP.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Upload2SP.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\AcadUtils.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Upload2SP.dll
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Upload2SP.pdb
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.dll
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\AcadUtils.pdb
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.pdb
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.csprojResolveAssemblyReference.cache
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.csproj.GenerateResource.Cache
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.dll
+H:\code\bp_net4.5_2015\Source Code\Upload2SP\Upload2SP\obj\Debug\Upload2SP.pdb
+H:\Upload2SP\Upload2SP\bin\Debug\Upload2SP.dll
+H:\Upload2SP\Upload2SP\bin\Debug\Upload2SP.pdb
+H:\Upload2SP\Upload2SP\bin\Debug\RegisteredDrawingUpload.dll
+H:\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.dll
+H:\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.dll
+H:\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.dll
+H:\Upload2SP\Upload2SP\bin\Debug\AcadUtils.pdb
+H:\Upload2SP\Upload2SP\bin\Debug\CadLogixUtil.pdb
+H:\Upload2SP\Upload2SP\bin\Debug\GPCLServiceCentral.pdb
+H:\Upload2SP\Upload2SP\bin\Debug\Xml.Schema.Linq.pdb
+H:\Upload2SP\Upload2SP\obj\Debug\Upload2SP.csprojResolveAssemblyReference.cache
+H:\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Banner_Form.resources
+H:\Upload2SP\Upload2SP\obj\Debug\Upload2SP.Properties.Resources.resources
+H:\Upload2SP\Upload2SP\obj\Debug\Upload2SP.csproj.GenerateResource.Cache
+H:\Upload2SP\Upload2SP\obj\Debug\Upload2SP.dll
+H:\Upload2SP\Upload2SP\obj\Debug\Upload2SP.pdb

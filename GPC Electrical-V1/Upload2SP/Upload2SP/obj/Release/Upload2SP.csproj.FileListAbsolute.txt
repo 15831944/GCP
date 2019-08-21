@@ -1,0 +1,10 @@
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\Upload2SP.dll
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\Upload2SP.pdb
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.csprojAssemblyReference.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.Banner_Form.resources
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.Properties.Resources.resources
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.csproj.GenerateResource.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.csproj.CoreCompileInputs.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.csproj.CopyComplete
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.dll
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\Upload2SP\Upload2SP\obj\Release\Upload2SP.pdb

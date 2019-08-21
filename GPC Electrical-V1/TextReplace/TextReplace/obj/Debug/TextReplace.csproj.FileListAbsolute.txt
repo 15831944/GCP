@@ -1,0 +1,56 @@
+e:\documents and settings\kris\my documents\visual studio 2010\Projects\TextReplace\TextReplace\obj\Debug\ResolveAssemblyReference.cache
+e:\documents and settings\kris\my documents\visual studio 2010\Projects\TextReplace\TextReplace\obj\Debug\TextReplace.DrawingSelection.resources
+e:\documents and settings\kris\my documents\visual studio 2010\Projects\TextReplace\TextReplace\obj\Debug\GenerateResource-ResGen.read.1.tlog
+e:\documents and settings\kris\my documents\visual studio 2010\Projects\TextReplace\TextReplace\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\TextReplace.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\TextReplace.pdb
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\AcDbMgd.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\AcMgd.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\AdWindows.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\AcTcMgd.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\bin\Debug\AcCui.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\obj\Debug\TextReplace.dll
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\obj\Debug\TextReplace.pdb
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\obj\Debug\TextReplace.AddText.resources
+E:\Documents and Settings\Kris\My Documents\Visual Studio 2010\Projects\TextReplace\TextReplace\obj\Debug\TextReplace.Properties.Resources.resources
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\TextReplace.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\TextReplace.pdb
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\AcCoreMgd.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\AcDbMgd.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\AcMgd.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\AdWindows.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\AcTcMgd.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\bin\Debug\AcCui.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\ResolveAssemblyReference.cache
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\TextReplace.AddText.resources
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\TextReplace.DrawingSelection.resources
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\TextReplace.Properties.Resources.resources
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\GenerateResource.read.1.tlog
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\GenerateResource.write.1.tlog
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\TextReplace.dll
+F:\GPCL\kk emails\TextReplace\TextReplace\TextReplace\obj\Debug\TextReplace.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\TextReplace.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\TextReplace.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\AcCoreMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\AcDbMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\AcMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\AdWindows.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\AcTcMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\bin\Debug\AcCui.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.csprojResolveAssemblyReference.cache
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.AddText.resources
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.DrawingSelection.resources
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.Properties.Resources.resources
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.csproj.GenerateResource.Cache
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\TextReplace\TextReplace\obj\Debug\TextReplace.pdb
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\TextReplace.dll
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\GPC Autocad Deployment\Release\TextReplace.pdb
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.csprojAssemblyReference.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.AddText.resources
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.DrawingSelection.resources
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.Properties.Resources.resources
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.csproj.GenerateResource.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.csproj.CoreCompileInputs.cache
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.dll
+D:\Projects\1. Chennai\2. A2K\AutoCAD Electrical 2019\GPC Electrical Migration\TextReplace\TextReplace\obj\Debug\TextReplace.pdb

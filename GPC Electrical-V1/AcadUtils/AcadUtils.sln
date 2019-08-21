@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcadUtils", "AcadUtils\AcadUtils.csproj", "{FB188A21-32FB-4AE1-9FBF-B8F1426FD373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B93067B-6173-45B8-98B3-5E06C6FE3ACB}"
+	ProjectSection(SolutionItems) = preProject
+		loadapps.lsp = loadapps.lsp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB188A21-32FB-4AE1-9FBF-B8F1426FD373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB188A21-32FB-4AE1-9FBF-B8F1426FD373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB188A21-32FB-4AE1-9FBF-B8F1426FD373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB188A21-32FB-4AE1-9FBF-B8F1426FD373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.pdb
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\AcDbMgd.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\AcMgd.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\AdWindows.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\AcTcMgd.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\bin\Debug\AcCui.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.dll
+C:\Documents and Settings\klupfelk\My Documents\Visual Studio 2010\Projects\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.pdb
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\AcDbMgd.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\AcMgd.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\AdWindows.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\AcTcMgd.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\bin\Debug\AcCui.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\obj\Debug\ResolveAssemblyReference.cache
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.dll
+C:\ObjectARX 2010\samples\dotNet\KrisLogics\WFApps\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.pdb
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.pdb
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AcCoreMgd.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AcDbMgd.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AcMgd.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AcWindows.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AdWindows.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AcTcMgd.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\bin\Debug\AcCui.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.dll
+C:\VS2010\ARX2013\AcadUtils\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\RibbonSetup.pdb
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AcCoreMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AcDbMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AcMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AcWindows.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AdWindows.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AcTcMgd.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\bin\Debug\AcCui.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.csprojResolveAssemblyReference.cache
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.dll
+E:\bp_PCU\bp_net4.5_2015\Source Code\RibbonSetup\RibbonSetup\obj\Debug\RibbonSetup.pdb

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AcadUtils.ReferenceObject">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAIAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.DeletionObject">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAQAABAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.AttributeObject">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAgQAAAAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.ValidationObject">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.DrawingImageObject">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAQAAAAAAAAAAAAAAAAgIAAAAAAABAAgAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.SetTextWidth">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIEAAgAAAAQAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.ReturnMessage">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.Metrics">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIIAAAAAAAAEAAAAAAAAAAAAAAQAECAAQAAAAAAAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcadUtils.DwgUtils" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Class Name="AcadUtils.DwgUtils.DateTimeConverter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DwgUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BQQAQgAAAAkAAwECAAJBgAgCAAIAQCQEAgAEAGTIACg=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="AcadUtils.ImageType">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAgABAAAAAAAAAIAAAAAAAEACAA=</HashCode>
+      <FileName>DwgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
